@@ -1,53 +1,25 @@
 # PWA-text-editor
 
-"scripts": {
-    "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
-    "start": "npm run build && cd server && node server.js",
-    "server": "cd server nodemon server.js --ignore client",
-    "build": "cd client && npm run build",
-    "install": "cd server && npm i && cd ../client && npm i",
-    "client": "cd client && npm start"
-  },
+## Description
+This is a text editor that is a progressive web application. By installing this application locally it can used offline. This application utilizes webpack to bundle modules, a workbox service worker to cache static assets, and indexedDB for its database.
 
-  {
-  "icons": [
-    {
-      "src": "/assets/icons/icon_512x512.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    },
-    {
-      "src": "/assets/icons/icon_384x384.png",
-      "sizes": "384x384",
-      "type": "image/png"
-    },
-    {
-      "src": "/assets/icons/icon_256x256.png",
-      "sizes": "256x256",
-      "type": "image/png"
-    },
-    {
-      "src": "/assets/icons/icon_192x192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "/assets/icons/icon_128x128.png",
-      "sizes": "128x128",
-      "type": "image/png"
-    },
-    {
-      "src": "/assets/icons/icon_96x96.png",
-      "sizes": "96x96",
-      "type": "image/png"
-    }
-  ],
-  "name": "Just Another Text Editor",
-  "short_name": "J.A.T.E",
-  "orientation": "portrait",
-  "display": "standalone",
-  "start_url": "/",
-  "description": "Takes notes with JavaScript syntax highlighting!",
-  "background_color": "#225ca3",
-  "theme_color": "#225ca3"
-}
+### Table of contents
+- [Screenshots](#Screenshots)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Links](#Links)
+- [Contact](#Contact)
+
+## Screenshots
+
+## Installation
+
+## Usage
+
+## Links
+[Heroku](https://yaris-jate.herokuapp.com/)
+
+## Contact
+[GitHub](https://github.com/FixieGemini)
+
+[Email](yariel.crespo@gmail.com)
