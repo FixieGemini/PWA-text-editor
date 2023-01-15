@@ -11,6 +11,7 @@ This is a text editor that is a progressive web application. By installing this 
 - [Contact](#Contact)
 
 ## Screenshots
+![alt jate screen](./images/yaris-jate.herokuapp.com_.png)
 
 ## Installation
 
